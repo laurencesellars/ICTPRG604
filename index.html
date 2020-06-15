@@ -5,7 +5,9 @@
   crossorigin="anonymous"></script>
 <script src="course.json"></script>
   <script>
-    $('body').append("<h1>" + course.name + "</h1>")
+    $( document ).ready(function() {
+      $('body').append("<h1>" + course.name + "</h1>")
+    }
   </script>
 <head>
 <h1>Cloud Service</h1>
